@@ -1,0 +1,78 @@
+@import "./colorsFonts.scss";
+
+.aboutPage {
+    display: grid;
+    flex-direction: column;
+    grid-gap: 40px;
+    width: 80vw;
+}
+
+.aboutHowVideoWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutHowVideoWrapper h1 {
+    font-size: 6em;
+    color: $header-blue;
+    font-family: $header-font;
+    padding: 20px;
+}
+
+.aboutHowVideo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+.aboutHowVideo iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// RightWrapper Styles
+.aboutInfoRightWrapper {
+    display: flex;
+}
+
+.aboutInfoRightImage img {
+    width: 400px;
+}
+
+.aboutInfoRightText p {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.aboutInfoRightText h1 {
+    text-align: right;
+    color: $header-blue;
+    font-family: $header-font;
+}
+
+
+// leftWrapper Styles
+.aboutInfoLeftWrapper {
+    display: flex;
+}
+
+.aboutInfoLeftImage img {
+    width: 400px;
+}
+
+.aboutInfoLeftText p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.aboutInfoLeftText h1 {
+    text-align: left;
+    padding-left: 20px;
+    color: $header-blue;
+    font-family: $header-font;
+}
